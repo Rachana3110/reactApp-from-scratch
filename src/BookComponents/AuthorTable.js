@@ -67,7 +67,7 @@ const AuthorTable = (name) => {
   //Loading untill author detials is fetched
   if (loading) {
     return (
-      <div className={classes.load}>Loading Author Details! Plase wait..</div>
+      <div className={classes.load}>Loading Author Details! Please wait..</div>
     );
   }
 
